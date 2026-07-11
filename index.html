@@ -18,6 +18,8 @@
 
 
 
+
+
   
   <meta http-equiv="Content-Type" content="text/html; image/x-icon; charset=UTF-8">
 
@@ -324,7 +326,7 @@ Bluetooth</a></span><span style="font-weight: bold;">").<br>
 корпусе <span style="color: rgb(153, 0, 0);"></span></span><span style="font-weight: bold;"><span style="color: rgb(153, 0, 0);">"</span></span><span style="font-weight: bold;"><span style="color: rgb(153, 0, 0);">яйцо"
 скатывается по лестнице - <span style="color: black;">определение
 мест сильных соударений по графику ускорения, таймеру и замедленному
-видео (имитация поиска опасных мест на конвейере птицефабрики)</span></span><span style="color: black;">.</span><br>
+видео (имитация поиска опасных мест на конвейерах для транспортировки яиц на птицефабриках)</span></span><span style="color: black;">.</span><br>
 </span><span style="font-weight: bold;"><br>
 Акселерометр USB</span>
 работает при
@@ -612,7 +614,48 @@ USB, 8 диапазоном, частота
 </h2>
 
 <hr style="width: 100%; height: 2px;">
+<h1 style="height: 19px;"><span style="font-weight: bold;">Термоконтроллер / таймер<br>
+</span></h1>
+
+
+
+
+<p class="MsoNormal"><a href="img/ThermoReg.jpg"><span style="" lang="EN-US"></span></a><a target="_blank" href="img/thermoCoupleCtl.jpg"><img style="border: 0px solid ; width: 102px; height: 74px; float: left;" alt="Thermo Controller" src="img/thermoCoupleCtl.jpg" title="Thermo Controller" align="left" hspace="10" vspace="5"></a><span lang="EN-US">Термоконтроллер разработан для управления <span style="font-weight: bold;">температурой паяльного стола</span> и для <span style="font-weight: bold;">выключения электродуховки</span> мощностью <span style="font-weight: bold;">1кВт</span> - булочки разогревать.</span><br>
+
+
+Особенности:<br>
+
+
+
+- <span style="font-weight: bold;">40-амперный симистор</span> коммутирует нагрузку; пластина-радиатор с симистором нагреваются лишь до <span style="font-weight: bold;" lang="EN-US">+40º</span><span style="" lang="EN-US"><span style="font-weight: bold;">C</span> </span>при <span style="" lang="EN-US">+25</span><span lang="EN-US">º</span><span style="" lang="EN-US">C и нагрузке мощностью <span style="font-weight: bold;">1кВт</span></span><span style="font-weight: bold;"></span>. При токе нагрузки в десятки ампер понадобится большой радиатор;<br>
+
+
+
+- <span style="font-weight: bold;">симисторная оптопара zero-cross</span>
+(со включением и выключением при переходе сетевого напряжения через
+ноль) управляет 40-амперным симистором, что минимизирует помехи при
+коммутации;<br>
+
+
+- <span style="font-weight: bold;">термопара К-типа </span>выдерживает температуру до 600<span style="" lang="EN-US"></span><span lang="EN-US">º</span><span style="" lang="EN-US">C</span> (она на фото);<br>
+
+
+- возможность подключения цифрового <span style="font-weight: bold;">термодатчика DS18B20</span> (1-Wire интерфейс) для точного низкотемпературного измерения (<span lang="EN-US">ошибка измерения температуры
+составляет</span><span lang="EN-US">менее ±0.5</span><span lang="EN-US">º</span><span lang="EN-US">C в диапазоне -10</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C…+85</span><span lang="EN-US">º</span><span style="" lang="EN-US">C и ±2</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C в
+диапазоне -55</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C…+125</span><span lang="EN-US">º</span><span lang="EN-US"></span><span style="" lang="EN-US">C</span>) и регулировки;<br>
+
+
+
+- <span style="font-weight: bold;">установка температуры</span> выключения и включения нагрузки (нагревателя, охладителя); если гистерезис не нужен, обе температуры выбираются одинаковыми;<br>
+
+
+
+- <span style="font-weight: bold;">режим таймера</span>: выключение нагрузки через 1...1000 с,&nbsp; индикация оставшегося времени в секундах;<span lang="EN-US"></span><br>
+
+- все <span style="font-weight: bold;">параметры сохраняются в энергонезависимой памяти</span>.<br>
+<span style="font-weight: bold;"></span></p>
 <h1 style="height: 19px;"><span style="font-weight: bold;">Терморегулятор</span></h1>
+
 
 
 
